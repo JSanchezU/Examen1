@@ -19,6 +19,10 @@ angular.module('kpopstore.factories', [])
 		return list.$add(product);
 	};
 
+	products.remove = function(product){
+		return list.remove(product);
+	};
+
 	products.get = function(id){
 		return cache.$getRecord(id);
 	};

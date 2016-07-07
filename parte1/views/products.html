@@ -6,13 +6,15 @@
 	    <th>Codigo</th>
 	    <th>Descripcion</th>
 	    <th>Precio</th>
+	    <th></th>
 	</tr>
 	<tr ng-repeat="product in list.products"><a ng-href="#/product/{{product.$id}}">
 	    <td><a ng-href="#/product/{{product.$id}}">{{product.nombre}}</a></td>
 	    <td>{{product.cantidad}}</td> 
 	    <td>{{product.codigo}}</td>
 	    <td>{{product.descripcion}}</td>
-	    <td>{{product.precio}}</td> 
+	    <td>{{product.precio}}</td>
+	    <td><button ng-submit="products.remove(product.$id)" class="btn btn-danger">Delete</button></td>
 	</tr>
 </table>
 
