@@ -1,0 +1,25 @@
+{
+  "name": "Examen1",
+  "description": "Examen 1",
+  "main": "index.html",
+  "authors": [
+    "Javier Sanchez"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Javierimperial/Examen1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.6",
+    "angular-resource": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "angularfire": "^2.0.1",
+    "firebase": "^3.0.5",
+    "bootstrap": "^3.3.6"
+  }
+}

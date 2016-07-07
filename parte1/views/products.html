@@ -1,0 +1,19 @@
+<h4>Productos</h4>
+<table class="table table-striped">
+	<tr>
+	    <th>Nombre</th>
+	    <th>Cantidad</th> 
+	    <th>Codigo</th>
+	    <th>Descripcion</th>
+	    <th>Precio</th>
+	</tr>
+	<tr ng-repeat="product in list.products"><a ng-href="#/product/{{product.$id}}">
+	    <td><a ng-href="#/product/{{product.$id}}">{{product.nombre}}</a></td>
+	    <td>{{product.cantidad}}</td> 
+	    <td>{{product.codigo}}</td>
+	    <td>{{product.descripcion}}</td>
+	    <td>{{product.precio}}</td> 
+	</tr>
+</table>
+
+
