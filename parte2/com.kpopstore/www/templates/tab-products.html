@@ -1,0 +1,13 @@
+<ion-view view-title="Products">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="product in products.catalog" type="item-text-wrap" href="#/tab/chats/{{product.id}}">
+        <img ng-src="{{product.url}}">
+        <h2>{{product.nombre}}</h2>
+        <p>{{product.precio}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
